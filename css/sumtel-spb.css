@@ -1,0 +1,504 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24.07.2017, 0:57:00
+    Author     : Алексей
+*/
+a {
+	color: #ff8a00;
+}
+
+
+.highlight {
+	color: #ff8a00;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ff8a00;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #ff8a00;
+}
+
+
+.btn-default {
+	border: 2px solid #ff8a00;
+	color: #ff8a00;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+	border: 2px solid #ff8a00;
+	background: #ff8a00;
+}
+
+.btn-primary {
+	border: 2px solid #ff8a00;
+	background: #ff8a00;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	border: 2px solid #ff8a00;
+	color: #ff8a00;
+}
+
+.btn-secondary {
+	background: #ff8a00;
+}
+
+.form-header .btn {
+	background-color: #ff8a00;
+}
+
+.form-header .btn:hover {
+	background-color: #5de300;
+}
+
+.feat-list:hover i {
+	color: #5de300;
+}
+
+.subscribe-form button {
+	background-color: #ff8a00;
+}
+
+.title-line {
+    background: #ff8a00;
+}
+
+.price-group .price {
+	color: #ff8a00;
+}
+
+.btn-price {
+	background: #ff8a00;
+}
+
+.testi-item .client-info .company {
+	color: #ff8a00;
+}
+
+.owl-theme .owl-controls .owl-page span{
+	background: #ff8a00;
+}
+
+.ul-address i {
+	color: #ff8a00; 
+}
+
+#contact-form .btn {
+	background-color: #ff8a00;
+}
+
+.social li a {
+	color: #ff8a00;
+	border: solid 1px #ff8a00;
+}
+
+.social li a:hover {
+	background: #ff8a00;
+}
+
+.social-icons i {
+	color: #ff8a00;
+}
+
+.table > thead > tr > th { 
+	background: #ff8a00; 
+}
+
+.scrollToTop:hover{
+	color: #ff8a00;
+}
+
+
+
+#countdown {
+    display: none;
+}
+
+.timer_day, .timer_hour, .timer_min, .timer_sec {
+	display: block;
+	background: #ff8a00;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+}
+
+.timer_day_text, .timer_hour_text, .timer_min_text, .timer_sec_text {
+	display: block;
+	background: none;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+}
+/*
+.div-ref {
+	display: block;
+	float: left;
+	text-align: center;
+}
+*/
+.head-btn .btn-primary, .head-btn .btn-default {
+		margin: 0;
+		margin-right: 15px;
+		
+	}
+	
+.action h2 {
+	margin-top: 30px;
+}
+
+.action .signup-header {
+	margin: 30px 0 30px;
+	padding-bottom: 5px;
+}
+
+.hidder {
+	display: none;
+}
+
+.price-group {
+	padding: 30px;
+}
+
+.col-sm-4:nth-child(3) .price-box .price-group {
+	padding-top: 0;
+}
+
+.text-block {
+	padding: 5px;
+}
+
+.text-block h3 {
+	margin: 10px;
+}
+
+.feature-img {
+	margin-left: auto;
+	margin-right: auto;
+}
+#lets-go-order, #house_text, #family_text, #order_text, #house_check_div, #family_input_div, #phone_input_div, #send_order_div {
+    display: none;
+}
+
+/* popups */
+/* main popup */
+/*
+.popup {
+  visibility: hidden;
+  opacity: 1;
+  position: fixed;
+  display: table;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  background: url(../img/opacity_bg.png); }
+
+.popup_in {
+  display: table;
+  width: 100%;
+  height: 100%; }
+
+.popup_v {
+  display: table-cell;
+  vertical-align: middle; }
+
+.popup_container {
+  vertical-align: middle;
+  display: none;
+  background: white;
+  width: 550px;
+  text-align: center;
+  color: #000;
+  margin: 0 auto;
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  -moz-transition: -moz-transform 0.3s ease-in;
+  -o-transition: -o-transform 0.3s ease-in;
+  transition: transform 0.3s ease-in;
+  padding-top: 1px;
+  position: relative;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -moz-transform: scale(0.5); }
+.popup_container .text {
+  position: relative; }
+.popup_container h2 {
+  font: 28px 'intro_regular';
+  text-transform: uppercase;
+  color: black;
+  font-weight: normal; }
+
+.full-popup .popup_container {
+  -webkit-transition-duration: 0s !important;
+  -moz-transition-duration: 0s !important;
+  -o-transition-duration: 0s !important;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -moz-transform: scale(1); }
+
+.active-popup .popup_container {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -moz-transform: scale(1); }
+
+.popup_close {
+  display: block;
+  position: absolute;
+  top: 20px;
+  width: 17px;
+  height: 15px;
+  right: 20px;
+  margin-top: 0px;
+  z-index: 20;
+  background: url(../img/close_popup.png) center center no-repeat; }
+
+.popup_close_ {
+  position: absolute;
+  right: 10px;
+  top: -40px;
+  color: white;
+  font: 14px 'officinaserifboldcregular'; }
+
+.no-visible, .popup-no-visible {
+  display: none; }
+
+*/
+
+/*
+.btstrp-corr {
+		padding: 0;
+		padding-right: 15px;
+	}	
+
+.connect-unit {
+	color: #fff;
+}
+
+.connect-unit h2{
+	margin-top: 30px;
+	font-size: 40px;
+	font-weight: 300;
+	
+}
+
+.connect-unit {
+	margin: 30px 0 30px;
+	background: rgba(255,255,255,0.2);
+	border-radius: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+.connect-unit h3{
+	padding: 20px 0 10px;
+	color: white;
+	font-weight: 300;
+}
+.connect-unit input {
+	position: relative;
+	padding: 5px 15px;
+}
+
+.connect-unit p {
+	color: white;
+}	
+	
+.connect-block {
+	
+}
+*/
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+	
+	
+	/* Мои доработки */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+	
+	
+	/* Мои доработки */
+}
+
+/* smart-phone ----------- */
+@media (max-width: 767px) {
+	
+	/* Мои доработки */
+}	
+/* iPhone 6Plus (landscape) ----------- */
+@media (max-width: 736px) {
+	
+	
+	/* Мои доработки */
+/*	
+	.div-ref {
+	display: block;
+	float: left;
+	text-align: center;
+	}
+*/	
+	.head-btn .btn-default {
+		margin-top: 30px;
+	}
+/*	.head-btn .btn-primary, .head-btn .btn-default {
+		width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		
+	}
+*/
+}
+
+/* iPhone 6 (landscape) ----------- */
+@media (max-width: 667px) {
+	
+	
+	/* Мои доработки */
+/*	
+	.div-ref {
+	display: block;
+	float: left;
+	text-align: center;
+	}
+*/	
+	.head-btn .btn-default {
+		margin-top: 30px;
+	}
+/*	.head-btn .btn-primary, .head-btn .btn-default {
+		width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+	}
+*/	
+	.btstrp-corr {
+	margin-top: 30px;
+	}	
+}
+
+/* iPhone 5 (landscape) ----------- */
+@media (max-width: 568px){
+	
+	
+	/* Мои доработки */
+	
+	.div-ref {
+	display: block;
+	float: left;
+	text-align: center;
+	}
+	
+	.head-btn .btn-default {
+		margin-top: 30px;
+	}
+	.head-btn .btn-primary, .head-btn .btn-default {
+		width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+	}
+	.btstrp-corr {
+	margin-top: 30px;
+	}	
+}
+
+/* iPhone 4 (landscape; iPhone6 - portrait) ----------- */
+@media (max-width: 480px) {
+	
+	
+	/* Мои доработки */
+	.btstrp-corr {
+	margin-top: 30px;
+	}
+	
+	.div-ref {
+	display: block;
+	float: left;
+	text-align: center;
+	}
+	
+	.head-btn .btn-default {
+		margin-top: 30px;
+	}
+	.head-btn .btn-primary, .head-btn .btn-default {
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+	}
+	
+}
+
+/* smart phone width: 360px ----------- */
+@media (max-width: 360px) {
+		
+	/* Мои доработки */
+	.btstrp-corr {
+	margin-top: 20px;
+	}
+	
+	.div-ref {
+	display: block;
+	float: left;
+	text-align: center;
+	}
+
+	.head-btn .btn-default {
+		margin-top: 30px;
+	}
+	.head-btn .btn-primary, .head-btn .btn-default {
+		width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+	}
+}
+
+/* iPhone 4/5 (portrait) ----------- */
+@media (max-width: 320px) {
+		
+	/* Мои доработки */
+	.btstrp-corr {
+	margin-top: 20px;
+	}
+	
+	.div-ref {
+	display: block;
+	float: left;
+	text-align: center;
+	}
+	
+	.head-btn .btn-default {
+		margin-top: 30px;
+	}
+	.head-btn .btn-primary, .head-btn .btn-default {
+		width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+	}
+}
